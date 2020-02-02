@@ -7,16 +7,16 @@ class Sesion extends BaseController{
 		if(!$this->session->has('MyData')){
 			return view('login/view_login');
 		}else{
-				return redirect()->to('/carweb/public/inicio');
+				return redirect()->to(baseURL.'public/inicio');
 		}
 
 
 /*
 		if(!$this->session->has('MyData')){
-			return redirect()->to('/carweb/public/Sesion/show');
+			return redirect()->to(baseURL.'public/Sesion/show');
 		}
 		else{
-			return redirect()->to('/carweb/public/home');
+			return redirect()->to(baseURL.'public/home');
 		}
 */
 
@@ -37,7 +37,7 @@ class Sesion extends BaseController{
 
 	public function dell(){
 		$this->session->removeTempdata('MyData');
-	//	return redirect()->to('/carweb/public/login/show');
+	//	return redirect()->to(baseURL.'public/login/show');
 	}
 
   public function show(){

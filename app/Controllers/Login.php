@@ -65,8 +65,8 @@ class Login extends BaseController{
 class Login extends BaseController{
 
 	public function index(){
-			if(!$this->session->has('MyData')){return redirect()->to('/carweb/public/login/show');}else{
-				return redirect()->to('/carweb/public/home');
+			if(!$this->session->has('MyData')){return redirect()->to(baseURL.'public/login/show');}else{
+				return redirect()->to(baseURL.'public/home');
 			}
 	}
 
@@ -93,7 +93,7 @@ class Login extends BaseController{
 
 	public function dell(){
 		$this->session->removeTempdata('MyData');
-		return redirect()->to('/carweb/public/login/show');
+		return redirect()->to(baseURL.'public/login/show');
 	}
 
 
