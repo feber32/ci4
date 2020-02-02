@@ -7,16 +7,16 @@ class Sesion extends BaseController{
 		if(!$this->session->has('MyData')){
 			return view('login/view_login');
 		}else{
-				return redirect()->to(baseURL.'public/inicio');
+				return redirect()->to(baseURL.'public/index.php/inicio');
 		}
 
 
 /*
 		if(!$this->session->has('MyData')){
-			return redirect()->to(baseURL.'public/Sesion/show');
+			return redirect()->to(baseURL.'public/index.php/Sesion/show');
 		}
 		else{
-			return redirect()->to(baseURL.'public/home');
+			return redirect()->to(baseURL.'public/index.php/home');
 		}
 */
 
@@ -37,7 +37,7 @@ class Sesion extends BaseController{
 
 	public function dell(){
 		$this->session->removeTempdata('MyData');
-	//	return redirect()->to(baseURL.'public/login/show');
+	//	return redirect()->to(baseURL.'public/index.php/login/show');
 	}
 
   public function show(){
