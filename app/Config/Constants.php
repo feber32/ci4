@@ -15,7 +15,7 @@ defined('APP_NAMESPACE') || define('APP_NAMESPACE', 'App');
 defined('baseURL') || define('baseURL', '/ci4/');
 defined('baseURL_lib') || define('baseURL_lib', '/ci4/src/');
 
-/*
+/* 
 |--------------------------------------------------------------------------
 | Composer Path
 |--------------------------------------------------------------------------
