@@ -4,7 +4,7 @@ use CodeIgniter\Controller;
 class Inicio extends BaseController{
 
 	public function index(){
-			if(!$this->session->has('MyData')){return redirect()->to(baseURL.'public/sesion');}
+			if(!$this->session->has('MyData')){return redirect()->to(baseURL.'public/index.php/sesion');}
 			 return view('inicio/view_go');
 	}
 

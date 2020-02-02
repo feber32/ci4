@@ -7,14 +7,14 @@ class Login extends BaseController{
 		if(!$this->session->has('MyData')){
 			return view('login/view_login');
 		}else{
-			return redirect()->to(baseURL.'public/inicio');
+			return redirect()->to(baseURL.'public/index.php/inicio');
 		}
 
 	}
 
 	public function salir(){
 		$this->session->removeTempdata('MyData');
-		return redirect()->to(baseURL.'public/login');
+		return redirect()->to(baseURL.'public/index.php/login');
 	}
 
 	public function valida(){
@@ -28,7 +28,7 @@ class Login extends BaseController{
 
 		$this->session->set('MyData',$newdata);
 
-		return redirect()->to(baseURL.'public/inicio');
+		return redirect()->to(baseURL.'public/index.php/inicio');
 	}
 
 	public function set(){
@@ -46,7 +46,7 @@ class Login extends BaseController{
 
 	public function dell(){
 		$this->session->removeTempdata('MyData');
-		return redirect()->to(baseURL.'public/login/show');
+		return redirect()->to(baseURL.'public/index.php/login/show');
 	}
 
   public function show(){
@@ -65,8 +65,8 @@ class Login extends BaseController{
 class Login extends BaseController{
 
 	public function index(){
-			if(!$this->session->has('MyData')){return redirect()->to(baseURL.'public/login/show');}else{
-				return redirect()->to(baseURL.'public/home');
+			if(!$this->session->has('MyData')){return redirect()->to(baseURL.'public/index.php/login/show');}else{
+				return redirect()->to(baseURL.'public/index.php/home');
 			}
 	}
 
@@ -93,7 +93,7 @@ class Login extends BaseController{
 
 	public function dell(){
 		$this->session->removeTempdata('MyData');
-		return redirect()->to(baseURL.'public/login/show');
+		return redirect()->to(baseURL.'public/index.php/login/show');
 	}
 
 

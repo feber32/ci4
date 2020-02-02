@@ -70,14 +70,14 @@
 
         <div class="row">
           <div class="input-field col s12">
-            <a href="<?=baseURL?>public/login/valida" class="btn waves-effect waves-light col s12">Entrar</a>
+            <a href="<?=baseURL?>public/index.php/login/valida" class="btn waves-effect waves-light col s12">Entrar</a>
           </div>
         </div>
         <div class="row">
           <div class="input-field col s6 m6 l6">
-            <p class="margin medium-small"><a href="<?=baseURL?>public/user/nuevo">Register Now!</a></p>
+            <p class="margin medium-small"><a href="<?=baseURL?>public/index.php/user/nuevo">Register Now!</a></p>
           </div>
-           
+
         </div>
 
       </form>
