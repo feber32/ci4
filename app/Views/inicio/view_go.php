@@ -5,6 +5,6 @@
     <title></title>
   </head>
   <body>
-    <a href="<?=baseURL?>public/login/salir">Salir</a>
+    <a href="<?=baseURL?>public/index.php/login/salir">Salir</a>
   </body>
 </html>

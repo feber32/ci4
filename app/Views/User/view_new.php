@@ -87,7 +87,7 @@
             <a href="index.html" class="btn waves-effect waves-light col s12">Register Now</a>
           </div>
           <div class="input-field col s12">
-            <p class="margin center medium-small sign-up">Already have an account? <a href="<?=baseURL?>public/login">Login</a></p>
+            <p class="margin center medium-small sign-up">Already have an account? <a href="<?=baseURL?>public/index.php/login">Login</a></p>
           </div>
         </div>
       </form>
