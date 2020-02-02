@@ -5,7 +5,7 @@
     <title></title>
   </head>
   <body>
-    <a href="public/inicio">entrar</a>
+    <a href="public/index.php/inicio">entrar</a>
     welcome
   </body>
 </html>
