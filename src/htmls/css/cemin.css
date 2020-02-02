@@ -1,0 +1,20 @@
+/* Color Theme Swatches in Hex */
+.CEMIN-1-hex { color: #C778FF; }
+.CEMIN-2-hex { color: #643FE8; }
+.CEMIN-3-hex { color: #5268FF; }
+.CEMIN-4-hex { color: #3F90E8; }
+.CEMIN-5-hex { color: #87EBFF; }
+
+/* Color Theme Swatches in RGBA */
+.CEMIN-1-rgba { color: rgba(199, 120, 255, 1); }
+.CEMIN-2-rgba { color: rgba(100, 63, 232, 1); }
+.CEMIN-3-rgba { color: rgba(82, 104, 255, 1); }
+.CEMIN-4-rgba { color: rgba(63, 144, 232, 1); }
+.CEMIN-5-rgba { color: rgba(135, 235, 255, 1); }
+
+/* Color Theme Swatches in HSLA */
+.CEMIN-1-hsla { color: hsla(275, 100, 73, 1); }
+.CEMIN-2-hsla { color: hsla(253, 78, 57, 1); }
+.CEMIN-3-hsla { color: hsla(232, 100, 66, 1); }
+.CEMIN-4-hsla { color: hsla(211, 78, 57, 1); }
+.CEMIN-5-hsla { color: hsla(190, 100, 76, 1); }
