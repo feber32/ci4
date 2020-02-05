@@ -14,8 +14,14 @@
 defined('APP_NAMESPACE') || define('APP_NAMESPACE', 'App');
 defined('baseURL') || define('baseURL', '/ci4/');
 defined('baseURL_lib') || define('baseURL_lib', '/ci4/src/');
+defined('logo_png') || define('logo_png', 'login-logo.png');
+defined('cnf_title') || define('cnf_title', 'titulo de la pagina');
+defined('cnf_NombreSys') || define('cnf_NombreSys', 'Pruebas de CI4');
+defined('cnf_description') || define('cnf_description', 'Pruebas de CI4 para PHP');
+defined('cnf_keywords') || define('cnf_keywords', 'Pruebas,CI4,php');
+defined('favicon_png') || define('favicon_png', 'favicon-32x32.png');
 
-/* 
+/*
 |--------------------------------------------------------------------------
 | Composer Path
 |--------------------------------------------------------------------------
