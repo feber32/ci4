@@ -1,13 +1,10 @@
 <?php namespace App\Controllers;
 
-use App\Models\UserModel;
-
 class Home extends BaseController{
-
-	public $userModel = null;
 
 	public function index(){
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 		if(!$this->session->has('MyData')){return redirect()->to(baseURL.'public/index.php/login');}
 =======
@@ -62,6 +59,9 @@ var_dump($user);
 
 		//if(!$this->session->has('MyData')){return redirect()->to(baseURL.'public/index.php/sesion/show');}
 >>>>>>> develop
+=======
+		if(!$this->session->has('MyData')){return redirect()->to(baseURL.'public/index.php/sesion/show');}
+>>>>>>> parent of c44f226... ok sesion con DB
 		 return view('inicio/view_go');
 
 	}
